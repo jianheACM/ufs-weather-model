@@ -38,6 +38,10 @@
   path = GOCART
   url = https://github.com/GEOS-ESM/GOCART
   branch = develop
+[submodule "gsl-gocart"]
+	path = gsl-gocart
+	url = https://github.com/zhanglikate/gsl-gocart.git
+  branch = p8-ufs-ccpp-chem
 [submodule "AQM"]
   path = AQM
   url = https://github.com/NOAA-EMC/AQM
