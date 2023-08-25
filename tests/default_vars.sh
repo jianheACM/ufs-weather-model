@@ -417,6 +417,38 @@ export PROGSIGMA=.false.
 # Aerosol convective scavenging
 export FSCAV_AERO='"*:0.3","so2:0.0","msa:0.0","dms:0.0","nh3:0.4","nh4:0.6","bc1:0.6","bc2:0.6","oc1:0.4","oc2:0.4","dust1:0.6","dust2:0.6","dust3:0.6","dust4:0.6","dust5:0.6","seas1:0.5","seas2:0.5","seas3:0.5","seas4:0.5","seas5:0.5"'
 
+# CATCHEM
+export AER_BC_OPT=1
+export AER_IC_OPT=1
+export AER_RA_FEEDBACK=0
+export AER_RA_FRQ=60
+export AERCHEM_ONOFF=1
+export BIO_EMISS_OPT=0
+export BIOMASS_BURN_CPLCHP=1
+export CHEM_CONV_TR=0
+export CHEM_IN_OPT=1
+export CHEM_OPT=300
+export CHEMDT=3
+export CLDCHEM_ONOFF=0
+export DMSEMIS_OPT=1
+export DUST_OPT_CPLCHP=5
+export DUST_ALPHA=1.0
+export DUST_GAMMA=1.6
+export DUST_CALCDRAG=1
+export EMISS_INPT_OPT=1
+export EMISS_OPT=5
+export GAS_BC_OPT=1
+export GAS_IC_OPT=1
+export GASCHEM_ONOFF=1
+export KEMIT=1
+export PLUMERISEFIRE_FRQ_CPLCHP=60
+export PLUMERISE_FLAG=2
+export SEAS_OPT_CPLCHP=2
+export SEAS_EMIS_SCHEME=2
+export SEAS_EMIS_SCALE=1.,1.,1.,1.,1.
+export VERTMIX_ONOFF=1
+export WETDEP_LS_CPLCHP=1
+
 # SFC
 export DO_MYJSFC=.false.
 export DO_MYNNSFCLAY=.false.
@@ -428,6 +460,7 @@ export LANDICE=.true.
 export KICE=2
 export IALB=1
 export IEMS=1
+
 
 # Ozone / stratospheric H2O
 export OZ_PHYS_OLD=.true.
@@ -442,6 +475,7 @@ export CPLCHM=.false.
 export CPLFLX=.false.
 export CPLICE=.false.
 export CPLWAV=.false.
+export CPLCHP=.false.
 export CPLWAV2ATM=.false.
 export USE_MED_FLUX=.false.
 export DAYS=1

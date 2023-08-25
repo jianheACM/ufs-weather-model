@@ -143,3 +143,10 @@ if [ $CPLCHM = .true. ]; then
   cp      ${PATHRT}/parm/gocart/*.rc .
   ln -sf  @[INPUTDATA_ROOT]/GOCART/p8/ExtData .
 fi
+
+
+
+#CATChem Aerosol Inputs 
+#if [ $CPLCHP = .true. ]; then # <<<< This needs fixed. should be an option set in the tests/atmcataero_control_p8 file. for some reason it breaks 
+  cp /scratch2/NCEPDEV/stmp3/Barry.Baker/RUNDIRS/test/2016071500/gfs/prep/*.nc INPUT/
+#fi
