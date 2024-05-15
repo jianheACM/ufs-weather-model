@@ -1,6 +1,6 @@
 [submodule "FV3"]
   path = FV3
-  url = https://github.com/zhanglikate/fv3atm
+  url = git@github.com:jianheACM/fv3atm.git
   branch = catchem_Apr
 [submodule "WW3"]
   path = WW3
@@ -44,7 +44,7 @@
   branch = develop
 [submodule "CATChem"]
   path = CATChem
-  url = https://github.com/zhanglikate/CATChem.git
+  url = git@github.com:jianheACM/CATChem.git
   branch = gsl-updates
 [submodule "NOAHMP"]
   path = NOAHMP-interface/noahmp
