@@ -96,6 +96,10 @@
   res_latlon_dynamics = @[RES_LATLON_DYNAMICS]
   ignore_rst_cksum = @[ATM_IGNORE_RST_CKSUM]
   increment_file_on_native_grid = @[INCREMENT_FILE_ON_NATIVE_GRID]
+  do_schmidt = @[DO_SCHMIDT]
+  target_lat = @[TARGET_LAT]
+  target_lon = @[TARGET_LON]
+  stretch_fac = @[STRETCH_FAC]
 /
 
 &external_ic_nml
