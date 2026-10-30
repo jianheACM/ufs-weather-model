@@ -1,7 +1,7 @@
 [submodule "UFSATM"]
   path = UFSATM
-	url = https://github.com/zhanglikate/ufsatm
-	branch = ufschem_v1
+  url = git@github.com:jianheACM/ufsatm
+  branch = ufschem_v1p1
 [submodule "WW3"]
   path = WW3
   url = https://github.com/NOAA-EMC/WW3
@@ -51,6 +51,6 @@
   url = https://github.com/NOAA-EMC/fire_behavior
   branch = emc/develop
 [submodule "CATChem"]
-	path = CATChem
-	url = https://github.com/zhanglikate/CATChem
-	branch = ufschem_v1
+  path = CATChem
+  url = git@github.com:jianheACM/CATChem
+  branch = ufschem_v1p1
